@@ -179,7 +179,7 @@ int main(int argc, char** argv) {
     return 0;
   } else if (server_port) {
     error("A borders instance is already running and no valid arguments"
-          " where provided. To modify properties of the running instance"
+          " were provided. To modify properties of the running instance"
           " provide them as arguments.\n");
   }
 
